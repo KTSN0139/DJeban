@@ -1,0 +1,31 @@
+{	
+    "name": "Titanorium Smelter",
+    "type": "GenericCrafter",
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 30,
+    "craftTime": 90,
+    "buildTime": 360,
+    "craftEffect": "reactorsmoke",
+    "ambientSound": "loopSmelter",
+    "ambientSoundVolume": 3,
+    "consumes": {
+        "power": 5,
+        "items": [ 
+            { "item": "titanium", "amount": 2},
+            { "item": "thorium", "amount": 2}
+        ]
+    },
+    "outputItems": [ 
+            { "item": "titanorium", "amount": 2}
+        ],
+    "requirements": [
+        "lead/300",
+        "graphite/300",
+        "titanium/150",
+        "thorium/150",
+        "silicon/200"
+    ],
+    "category": "crafting"
+}

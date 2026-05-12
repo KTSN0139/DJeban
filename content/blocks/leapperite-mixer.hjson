@@ -1,0 +1,34 @@
+{	
+    "name": "Leapperite Mixer",
+    "type": "GenericCrafter",
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "liquidCapacity": 120,
+    "itemCapacity": 30,
+    "craftTime": 120,
+    "buildTime": 360,
+    "craftEffect": "reactorsmoke",
+    "ambientSound": "loopSmelter",
+    "ambientSoundVolume": 3,
+    "consumes": {
+        "power": 5,
+        "liquids": [
+            { "liquid": "water", "amount": 0.1}
+        ],
+        "items": [ 
+            { "item": "leapper", "amount": 6}
+        ]
+    },
+    "outputLiquid": "leapperite/0.1",
+    "requirements": [
+        "plastanium/150"
+        "copper/600",
+        "lead/400",
+        "leapper/200",
+        "graphite/600",
+        "thorium/500",
+        "silicon/100"
+    ],
+    "category": "crafting"
+}

@@ -1,0 +1,10 @@
+name: Leapperite
+description: Liquid alloy of lead and copper. Extremely explosive, but is a necessary industrial liquid in potent environment
+heatCapacity: 3
+explosiveness: 1
+temperature: 1.6
+viscocity: 0.7
+color: A455A9
+flammability: 1
+research: water
+coolant: false
